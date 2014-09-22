@@ -1,0 +1,39 @@
+{
+  "name": "dotpath-compile",
+  "description": "Dot-path based JavaScript object template compiler.",
+  "author": "Aleksandr Tsertkov <tsertkov@gmail.com>",
+  "version": "0.0.1",
+  "main": "lib/compile.js",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/tsertkov/dotpath-compile/blob/master/LICENSE-MIT"
+  },
+  "bugs": {
+    "url": "https://github.com/tsertkov/dotpath-compile/issues"
+  },
+  "scripts": {
+    "test": "node test/compile.js && jshint lib/ test/ package.json",
+    "jsdoc": "jsdoc --private --destination jsdoc lib/",
+    "nodemon": "nodemon -w lib/ -w test/ test/compile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tsertkov/dotpath-compile.git"
+  },
+  "keywords": [
+    "dotpath",
+    "dot-path",
+    "compiler",
+    "compile",
+    "template",
+    "json"
+  ],
+  "devDependencies": {
+    "jsdoc": "^3.3.0-alpha9",
+    "jshint": "^2.5.5",
+    "nodemon": "^1.2.1"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
