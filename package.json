@@ -35,6 +35,6 @@
   },
   "dependencies": {
     "lodash": "^2.4.1",
-    "dotpath-compile": "tsertkov/dotpath-compile"
+    "dotpath-resolve": "git://github.com/tsertkov/dotpath-resolve.git"
   }
 }
