@@ -34,7 +34,7 @@
     "nodemon": "^1.2.1"
   },
   "dependencies": {
-    "lodash": "^2.4.1",
-    "dotpath-resolve": "git://github.com/tsertkov/dotpath-resolve.git"
+    "dotpath-resolve": "*",
+    "lodash": "^2.4.1"
   }
 }
