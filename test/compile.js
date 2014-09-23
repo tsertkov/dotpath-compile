@@ -37,7 +37,9 @@ srcObj = {
     dynamic_arg: 'dynamically replaced',
     a: { sk: 'c.a.sk'},
     relative_sk: '<%= .a.sk %>'
-  }
+  },
+  e: '<%= f %>',
+  f: '<%= e %>'
 };
 
 srcObj2 = { a: 'a', b: '<%= a %>'};
