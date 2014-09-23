@@ -2,7 +2,7 @@
   "name": "dotpath-compile",
   "description": "Dot-path based JavaScript object template compiler.",
   "author": "Aleksandr Tsertkov <tsertkov@gmail.com>",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/compile.js",
   "license": {
     "type": "MIT",
@@ -34,7 +34,7 @@
     "nodemon": "^1.2.1"
   },
   "dependencies": {
-    "lodash": "^2.4.1",
-    "dotpath-resolve": "git://github.com/tsertkov/dotpath-resolve.git"
+    "dotpath-resolve": "*",
+    "lodash": "^2.4.1"
   }
 }
