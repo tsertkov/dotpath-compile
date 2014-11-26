@@ -12,7 +12,9 @@
     "url": "https://github.com/tsertkov/dotpath-compile/issues"
   },
   "scripts": {
-    "test": "node test/compile.js && jshint lib/ test/ package.json",
+    "test": "npm run cover-test && npm run jshint",
+    "cover-test": "istanbul cover --dir artifacts/coverage test/*",
+    "jshint": "jshint lib/ test/ package.json",
     "jsdoc": "jsdoc --private --destination artifacts/jsdoc lib/",
     "dev": "nodemon -w lib/ -w test/ test/compile.js"
   },
@@ -29,6 +31,7 @@
     "json"
   ],
   "devDependencies": {
+    "istanbul": "^0.3.2",
     "jsdoc": "^3.3.0-alpha10",
     "jshint": "^2.5.10",
     "nodemon": "^1.2.1"
