@@ -43,7 +43,7 @@ Complete API Documentation including private and public methods is generated fro
 
 ## Code coverage
 
-Code coverage report for all files is [available here](https://s3.eu-central-1.amazonaws.com/tsertkov-artifacts/dotpath-resolve/master/coverage/lcov-report/index.html).
+Code coverage report for all files is [available here](https://s3.eu-central-1.amazonaws.com/tsertkov-artifacts/dotpath-compile/master/coverage/lcov-report/index.html).
 
 ## Scripts
 
