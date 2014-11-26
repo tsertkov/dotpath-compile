@@ -23,7 +23,7 @@ All use cases are described in [test code](https://github.com/tsertkov/dotpath-c
 
 - `npm test` - run tests
 - `npm run jsdoc` - build jsdoc
-- `npm run nodemon` - continuously run unit tests
+- `npm run dev` - run tests continuously
 
 ## License
 

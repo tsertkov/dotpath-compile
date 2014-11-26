@@ -14,7 +14,7 @@
   "scripts": {
     "test": "node test/compile.js && jshint lib/ test/ package.json",
     "jsdoc": "jsdoc --private --destination artifacts/jsdoc lib/",
-    "nodemon": "nodemon -w lib/ -w test/ test/compile.js"
+    "dev": "nodemon -w lib/ -w test/ test/compile.js"
   },
   "repository": {
     "type": "git",
