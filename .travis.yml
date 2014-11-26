@@ -1,6 +1,7 @@
 language: node_js
 node_js:
 - '0.10'
+after_success: cat artifacts/coverage/lcov.info | node_modules/coveralls/bin/coveralls.js
 notifications:
   slack:
     secure: ITEaTM/jpEabQ/CtdX0xLPYFK8YABcceRiDrgsyYER0Gdc4jpHtr7JQdudEKoQa0mz9DmBsxvRXvDdkUUM0MbqZVjtWGlHD9+Ckf+opPGA8FDBtu/tMVbSMBIzeS3Ekp4LHzvHRGPVltJVxu49kwsvTVfVG22UaMx6g6tAXDuEw=
