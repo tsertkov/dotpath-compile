@@ -29,12 +29,12 @@
     "json"
   ],
   "devDependencies": {
-    "jsdoc": "^3.3.0-alpha9",
-    "jshint": "^2.5.5",
+    "jsdoc": "^3.3.0-alpha10",
+    "jshint": "^2.5.10",
     "nodemon": "^1.2.1"
   },
   "dependencies": {
-    "dotpath-resolve": "*",
+    "dotpath-resolve": "^0.1.3",
     "lodash": "^2.4.1"
   }
 }
