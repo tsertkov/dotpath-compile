@@ -4,7 +4,6 @@
 
 [![Build Status](https://travis-ci.org/tsertkov/dotpath-compile.svg?branch=master)](https://travis-ci.org/tsertkov/dotpath-compile)
 [![Coverage Status](https://img.shields.io/coveralls/tsertkov/dotpath-compile.svg)](https://coveralls.io/r/tsertkov/dotpath-compile?branch=master)
-[![David Status](https://david-dm.org/tsertkov/dotpath-compile.png)](https://david-dm.org/tsertkov/dotpath-compile)
 
 > Dot-path based JavaScript object template compiler.
 
