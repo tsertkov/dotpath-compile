@@ -1,3 +1,5 @@
+⛔️ DEPRECATED
+
 # dotpath-compile
 
 [![NPM](https://nodei.co/npm/dotpath-compile.png)](https://nodei.co/npm/dotpath-compile/)
